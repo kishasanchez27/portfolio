@@ -39,19 +39,10 @@ header {
 }
 
 #profile-img {
-	width: 120 px;
-	height: 120 px;
+	width: 150 px;
+	height: 150 px;
 	border-radius: 50 %;
-	object-fit: cover;
-	border: 5 px solid #d4af37;
-	box-shadow: 0 4 px 12 px rgba (0, 0, 0, 0.15);
-	margin: 20 px 0;
-	transition: all 0.3 s ease;
-}
-
-#profile-img:hover {
-	transform: scale (1.05);
-	box-shadow: 0 6 px 16 px rgba (212, 175, 55, 0.4);
+	object-fit: cover; 
 }
 
 button {
